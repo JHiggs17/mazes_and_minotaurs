@@ -10,5 +10,5 @@ public enum Score {
     SKILL,
     WILL,
     WITS,
-    LUCK;
+    LUCK
 }
