@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mythic Names -->
+    <!-- Mythic Weapons -->
+
+    <string name="mythw_1">Avian Shield and Spear</string>
+    <string name="mythw_2">Blade of Treachery</string>
+    <string name="mythw_3">Bow of Paris</string>
+    <string name="mythw_4">Arrows of Eros</string>
+    <string name="mythw_5">Javelin of Heartbreak</string>
+    <string name="mythw_6">Spear of Grace</string>
+    <string name="mythw_7">Spear of the Great Hunter</string>
+    <string name="mythw_8">Sword of Aphrodite</string>
+    <string name="mythw_9">Sword of the Bullslayer</string>
+    <string name="mythw_10">Thurian Sword</string>
+    <string name="mythw_11">Axe of the Urok Kings</string>
+    <string name="mythw_12">Sword of Fire</string>
+    <string name="mythw_13">Spear of Vapor,Shield of Ice</string>
+    <string name="mythw_14">Iolanthe's Spear and Shield</string>
+
+    <!-- Mythic Armor -->
+
+    <string name="mytha_1">Breastplate of Hubris</string>
+    <string name="mytha_2">Helm of True Imposture</string>
+    <string name="mytha_3">Royal Amazon Helmet</string>
+    <string name="mytha_4">Shield of Aphrodite</string>
+    <string name="mytha_5">Silver Aegis</string>
+    <string name="mytha_6">Armor of Eleon</string>
+    <string name="mytha_7">Mail Shirt of Air</string>
+    <string name="mytha_8">Breastplate of Earth</string>
+
+    <!-- Mythic Miscellaneous -->
+    
+    <string name="mythm_1">Balms of Asclepius</string>
+    <string name="mythm_2">Balm of Recovery</string>
+    <string name="mythm_3">Balm of Restoration</string>
+    <string name="mythm_4">Balm of Revivification</string>
+    <string name="mythm_5">Potion of Alacrity</string>
+    <string name="mythm_6">Potion of Endurance</string>
+    <string name="mythm_7">Potion of Pneumatic Immunity</string>
+    <string name="mythm_8">Scent of Aphrodite</string>
+    <string name="mythm_9">Seed of Demeter</string>
+    <string name="mythm_10">Silver Lotus Dust</string>
+    <string name="mythm_11">Greater Caducei</string>
+    <string name="mythm_12">Silver Caduceus</string>
+    <string name="mythm_13">Golden Caduceus</string>
+    <string name="mythm_14">Obsidian Caduceus</string>
+    <string name="mythm_15">Sceptre of Radiance</string>
+    <string name="mythm_16">Wand of Divine Wrath</string>
+    <string name="mythm_17">Amulet of Clarity</string>
+    <string name="mythm_18">Amulets of Immunity</string>
+    <string name="mythm_19">Arachnid Immunity</string>
+    <string name="mythm_20">Scorpion Immunity</string>
+    <string name="mythm_21">Ophidian Immunity</string>
+    <string name="mythm_22">Chimeric Immunity</string>
+    <string name="mythm_23">Amulet of Perception</string>
+    <string name="mythm_24">Amulet of Persuasion</string>
+    <string name="mythm_25">Amulet of the Bullmaster</string>
+    <string name="mythm_26">Charm of Kismet</string>
+    <string name="mythm_27">Finder-Keeper Stone</string>
+    <string name="mythm_28">Gorgon Stone</string>
+    <string name="mythm_29">Pendant of Gloom</string>
+    <string name="mythm_30">Ring of Hera</string>
+    <string name="mythm_31">Ring of Hestia</string>
+    <string name="mythm_32">Ring of Missile Deflection</string>
+    <string name="mythm_33">Ring of Poison Detection</string>
+    <string name="mythm_34">Ring of Self-Control</string>
+    <string name="mythm_35">Rings of Sorcery</string>
+    <string name="mythm_36">Ring of Truth</string>
+    <string name="mythm_37">Sacred Sigils</string>
+    <string name="mythm_38">Talismans of the Beasts</string>
+    <string name="mythm_39">Belt of Hestia</string>
+    <string name="mythm_40">Belt of Lightness</string>
+    <string name="mythm_41">Cap of Absolute Direction</string>
+    <string name="mythm_42">Cloak of Blending</string>
+    <string name="mythm_43">Cloak of Imposture</string>
+    <string name="mythm_44">Cloak of Princely Bearing</string>
+    <string name="mythm_45">Cloak of Shadows</string>
+    <string name="mythm_46">Coronet of Empowerment</string>
+    <string name="mythm_47">Coronet of Inner Beauty</string>
+    <string name="mythm_48">Coronet of Virtuous Grace</string>
+</resources>
