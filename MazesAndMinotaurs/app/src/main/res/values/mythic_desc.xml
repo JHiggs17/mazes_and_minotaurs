@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mythic Item Descriptions -->
+    <!-- Mythic Weapon Descriptions -->
+
+    <string name="mythw_desc_1">
+        These two items are always found together;
+        they were obviously part of some ancient panoply from a forgotten time.
+    </string>
+    <string name="mythw_desc_2">
+        This black-bladed dagger will only reveal its magical powers when used
+        by a person with a Luck of 13+.
+    </string>
+    <string name="mythw_desc_3">
+        
+    </string>
+</resources>
+
