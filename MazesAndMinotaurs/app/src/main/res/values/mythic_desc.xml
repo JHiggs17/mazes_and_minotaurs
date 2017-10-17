@@ -12,6 +12,60 @@
         by a person with a Luck of 13+.
     </string>
     <string name="mythw_desc_3">
+        The magical virtues of this bow can only be used by the most Graceful warriors
+        or specialists (i.e. those with a grace of 13+).
+    </string>
+    <string name="mythw_desc_4">
+        In addition to their normal damage, these arrows cause the target to either fall
+        in love or become jealous of another person or creature - unless the target makes
+        a Mystic Fortitude saving roll.
+    </string>
+    <string name="mythw_desc_5">
+        This javelin allows Graceful Warriors (i.e. those with a Grace Score of 13+)
+        to add their Grace bonus to both their Missile attack roll and damage roll.
+        Note, however that the Javelin of Heartbreak cannot be used as a melee spear. (Enc=1)
+    </string>
+    <string name="mythw_desc_6">
+        The magical virtues of this spear can only be used by classic Amazons (or by alternate
+        Amazons with a grace of 13+). It allows the wielder to add her Grace bonus to her
+        Initiative and Melee attack roll when the soear is used to Charge into Battle. (Enc=2)
+    </string>
+    <string name="mythw_desc_7">
+        This magical spear can only be properly used by Hunters; its magical properties can only
+        operate against Beasts and Monsters. When used in Melee, it allows the Hunter to benefit
+        from his Skill-based damage bonus; when thrown as a javelin, it doubles this damage bonus (Enc=2)
+    </string>
+    <string name="mythw_desc_8">
+        This magical spear grants its user a bonus to his Melee attacks and damage rolls when used
+        against Monsters. This bonus varies according to the size of the creature (the bigger the better!):
+        +1 if Medium or smaller, +2 if Large and +4 if Gigantic.
+    </string>
+    <string name="mythw_desc_9">
+        Created as a gift for the Noble divine agents of Aphrodite, this sword can only be used by Graceful
+        warriors (i.e. with a Grace of 13+), allowing them to add their Grace mod to damage rolls (Enc=1)
+    </string>
+    <string name="mythw_desc_10">
+        This ancient magical bronze sword grants a +2 bonus to Melee and damage when used against Minotaurs
+        and other true Minotaur-kin, as well as against bulls including Giant and Magical ones but excluding Bronze Animates
+    </string>
+    <string name="mythw_desc_11">
+        These ancient short swords were used by the men of King Letos, first monarch of Thena in their battles against the ophidian
+        minions of Thulsos
+    </string>
+    <string name="mythw_desc_12">
+        This unique, beautifully-crafted and indestructible two-handed battle axe was forged at the dawn of the Age of Magic as a
+        symbol of royalty for the kings of the Uroks - the creatures humans prefer to refer to as Golden Minotaurs.
+    </string>
+    <string name="mythw_desc_13">
+        This weapon can launch as many Fiery Darts (as per the Elementalist power of the same name) per day as the character\'s
+        Melee mod. it can also be used as a normal sword.
+    </string>
+    <string name="mythw_desc_14">
+        The spear of Vapor when thrown by a character with a Skill of 13 or higher, turns into a vaporous form, bypasssing armor,
+        carapaces, shields, and other forms of armor. The Shield of Ice adds an additional +2 bonus to the effective Defense
+        Class of its wielder.
+    </string>
+    <string name="mythw_desc_15">
         
     </string>
 </resources>
