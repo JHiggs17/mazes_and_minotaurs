@@ -66,7 +66,56 @@
         Class of its wielder.
     </string>
     <string name="mythw_desc_15">
-        
+        This spear and shield once belonged to Iolanthe of Argos, who was a noble woman from the late age of magic.
+        She traveled widely throughout Mythika, but ultimately made her home in Midia, where she lead several key raids
+        against the Stygians.
+    </string>
+
+    <!-- Mythic Armor Descriptions -->
+
+    <string name="mytha_desc_1">
+        These breastplates were forged by the gods to punish the haughty. Arrogant characters will see it as gleaming
+        armor only which they are worthy to wear. Once it is put on, it will actually lower the character/'s EDC by -2.
+        Only when the wearer has learned humility will he be able to remove the armor.
+    </string>
+    <string name="mytha_desc_2">
+        When worn by an Impostaur, this impressive bronze bull\'s head-shaped mask-like helmet will make its wearer behave
+        in a genuinely (as opposed to simulated) Minotaurian way, raising his Ferocity from Aggressive to Deadly, which
+        will add +2 to the Impostaur's Initiative, +4 to his Melee and +8 to his Hits Total. The mask also provides the
+        protection of a normal, non-magical helmet (+2 to the EDC) and has the same Enc value of 1.
+    </string>
+    <string name="mytha_desc_3">
+        This beautiful magical helmet can be worn by any character but its magical properties will only awaken when worn
+        by an Amazon of noble bearing (ie with a Personal Charisma of +1 or more)
+    </string>
+    <string name="mytha_desc_4">
+        The magical virtues of this beautiful shield can only be used by warriors with a Grace of 13+. It allows its user
+        to add his Grace bonus to his Defense Class (in addition to the regular +2 bonus given by the shield itself)
+        and his Danger Evasion rolls against Petrification. This bonus is in addition of any other defensive bonus the character
+        may have.
+    </string>
+    <string name="mytha_desc_5">
+        This magical shield is a very rare, more powerful variant of the classic Aegis shield described in the Maze Masters Guide
+        (P.37). While classic Aegises are made of magical bronze, these shields are made of shiny, mirror-like magical silver.
+    </string>
+    <string name="mytha_desc_6">
+        This armor, which once belonged to the legendary hunter Eleon, was crafted during The Age of Magic by the Dryads who
+        make their home in the forest south of the River Rhena. They gave this armor to Eleon to help him defend their lands
+        against the ravages of the wild north.
+    </string>
+    <string name="mytha_desc_7">
+        Wispy and pliable as a sheet of silk, this shirt gives the same protection as a normal breastplate (+2 to Defense
+        Class), but has an effective Encumberance value of 0 (Yes, zero!)
+    </string>
+    <string name="mytha_desc_8">
+        This breastplate adds a total of +6 to the wearer\'s effective Defense Class, but only as long as the wearer remains
+        firmly standing on the ground once combat begins.
+    </string>
+
+    <!-- Mythic Miscellaneous Descriptions -->
+
+    <string name="mythm_desc_1">
+
     </string>
 </resources>
 
