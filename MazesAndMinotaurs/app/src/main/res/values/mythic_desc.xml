@@ -115,7 +115,23 @@
     <!-- Mythic Miscellaneous Descriptions -->
 
     <string name="mythm_desc_1">
-
+        The formula for the preparation of these wondrous ointments has been lost - and even if it was found or discovered
+        it would probably not work, since the balms were concocted during the Age of Magic, a time of bygone enchantments and
+        extinct wonders. They can only be found in ancient treasure rooms, temples and other similar places, usually in small
+        pots or jars containing enough ointment for 1d6 application
+    </string>
+    <string name="mythm_desc_2">
+        This balm must be applied once per week to speed up the recovery of a wounded patient, doubling the amount of Hits
+        recovered during the week.
+    </string>
+    <string name="mythm_desc_3">
+        Each application of this balm restores 1 point of Might, Skill or Grace lost as consequence of grievous injury (see players
+        manual, p23); such permanent damage is normally impossible to heal, even by magical means, which makes the Balm of Restoration
+        the proverbial exception to the rule.
+    </string>
+    <string name="mythm_desc_4">
+        This most potent balm can be used to restore the corpse of a recently deceased individual, essentially reversing the effects of
+        decay and decomposition to allow a Divine Resurrection by a Sacred Healer.
     </string>
 </resources>
 
