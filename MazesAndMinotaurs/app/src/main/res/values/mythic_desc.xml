@@ -161,7 +161,16 @@
         of them has the usual properties of a Caduceus as well as an additional magical virtual which can only be used by a True Sacred Healer.
     </string>
     <string name="mythm_desc_12">
-        
+        In addition to its other properties, this silver tipped Caduceus allows a Sacred Healer to cure blindness in an individual by spending
+        3 Power Points.
+    </string>
+    <string name="mythm_desc_13">
+        In addition to its other properties, this golden-tipped Caduceus allows a Sacred Healer to regenerate severed hands, missing legs and
+        other mauled limbs. this comes at the cost of 6 Power Points and is not instantaneous, it will come back after a certain amount of time.
+    </string>
+    <string name="mythm_desc_14">
+        In addition to its other properties, this obsidian tipped Caduceus has the power to restore Petrified individuals to life regardless of
+        the time since they were petrified.
     </string>
 </resources>
 
