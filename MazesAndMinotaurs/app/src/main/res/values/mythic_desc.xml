@@ -133,5 +133,35 @@
         This most potent balm can be used to restore the corpse of a recently deceased individual, essentially reversing the effects of
         decay and decomposition to allow a Divine Resurrection by a Sacred Healer.
     </string>
+    <string name="mythm_desc_5">
+        One single dose of this potion will make the drinker exceptionally watchful and alert for 1 hour, granting him a +2 bonus to
+        Initiative and Danger Evasion.
+    </string>
+    <string name="mythm_desc_6">
+        Each dose of this magical potion will make the drinker completely indefatigable for one hour, granting him the same benefits
+        as the Divine Gift of Endurance (See Players Manual, p 31).
+    </string>
+    <string name="mythm_desc_7">
+        One dose of this potion makes the drinker completely immune to drowning, suffocation and other breathing hazards (including
+        the effects of poison gases or fumes) for one hour.
+    </string>
+    <string name="mythm_desc_8">
+        When sprinkled over one\'s person this subtle magical perfume will grant a bonus of +4 to that individual\'s seduction influence
+        talent (M and M Companion, p 31).
+    </string>
+    <string name="mythm_desc_9">
+        If this seed is planted in the ground by a Priestess of Demeter, it will grow overnight into a bush that will produce a number of
+        fruits equal to the Priestess' Grace Score
+    </string>
+    <string name="mythm_desc_10">
+        This silvery powder is used by Atlantean Sorcerers to regain some of their expended magical power without having to sleep for hours.
+    </string>
+    <string name="mythm_desc_11">
+        These wands are more potent (and consequently rarer) versions of the Caduceus staff described in the Maze masters guide (p 42); each
+        of them has the usual properties of a Caduceus as well as an additional magical virtual which can only be used by a True Sacred Healer.
+    </string>
+    <string name="mythm_desc_12">
+        
+    </string>
 </resources>
 
