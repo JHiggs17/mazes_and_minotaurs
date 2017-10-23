@@ -172,5 +172,97 @@
         In addition to its other properties, this obsidian tipped Caduceus has the power to restore Petrified individuals to life regardless of
         the time since they were petrified.
     </string>
+    <string name="mythm_desc_15">
+        This lordly wand can only be used by Nobles with a Grace of 13+. It allows the user to shoot forth bolts of bright magical light that do
+        (1d6+Grace mod) in damage and a range max of 20.
+    </string>
+    <string name="mythm_desc_16">
+        When used by a Priest of the appropriate deity, this magical sceptre allows the character to reduce the cost of his divine wrath power by
+        2 Power Points.
+    </string>
+    <string name="mythm_desc_17">
+        This amulet makes its wearer completely immune to the effects of the Sorcery powers of Confusion, Illusions, and Cloak.
+    </string>
+    <string name="mythm_desc_18">
+        These amulets make their wearer immune to the venom of a specific family of creatures. They were supposedly crafted during the Age of Magic
+        by the now extinct sorceresses of Thessalia, who helped the heroes of Minea and Umbria in their struggle against the Autarchs and their monstrous
+        allies.
+    </string>
+    <string name="mythm_desc_19">
+        This spider-shaped amulet makes its wearer immune to the effects of spider venom - including the poison of Giant Spiders, Daughters of Arachne and
+        other arachnid creatures.
+    </string>
+    <string name="mythm_desc_20">
+        This scorpion-shaped amulet makes its wearer immune to the effects of scorpion venom - including the poison of Giant Scorpions, Scorpion Folk and
+        Manticores.
+    </string>
+    <string name="mythm_desc_21">
+        This serpent-shaped amulet makes its wearer immune to the effects of snake venom - including the poison of Giant Snakes, Stygian Serpents and the
+        Lamiae.
+    </string>
+    <string name="mythm_desc_22">
+        This extremely rare amulet makes its wearer immune to the poison of Chimeras, whether it is secreted by a sting or a snakehead-like tail.
+    </string>
+    <string name="mythm_desc_23">
+        This amulet heightens all its wearer\'s senses, giving him a +4 bonus to all perception rolls.
+    </string>
+    <string name="mythm_desc_24">
+        This amulet boosts its wearer\'s rhetorical eloquence, granting him a +4 bonus to his Persuasion talent.
+    </string>
+    <string name="mythm_desc_25">
+        When worn by a Sorcerer, this bull\'s head-shaped amulet raises the wearer\'s Mystic Strength by +4 when using his powers on a Minotaur or
+        any other true Minotaur-kin.
+    </string>
+    <string name="mythm_desc_26">
+        This magical pendant appears a 1" tall miniature of a strange satyr-like being, said to represent the mysterious god Kismet, an eastern deity
+        of fate and fortune who is apparently very popular among the rogues and cutthroats of Khandaria, the notorious City of Thieves. it only works
+        when used by a Thief, adding +2 to his Thievery bonus.
+    </string>
+    <string name="mythm_desc_27">
+        This egg-sized, grey-blue stone will begin to glow whenever it is within 30 feet of any amount of gold, silver, or jewels worth at least 100
+        silver pieces.
+    </string>
+    <string name="mythm_desc_28">
+        When worn as an amulet, this nut-sized bloodstone offers an extremely effective but one-off defense against the Petrification powers of Gorgons,
+        Basilisks and similar creatures.
+    </string>
+    <string name="mythm_desc_29">
+        This amulet makes Sorcerers insensitive to the mysterious beauties of Nature and Poetry. In game terms it adds +4 to a Sorceror\'s Mystic Fortitude
+        when defending against Nymphs and Lyrists.
+    </string>
+    <string name="mythm_desc_30">
+        This ring allows the Priestesses of Hera to use their Divine Vision power at half cost; one Power Point instead of the usual two.
+    </string>
+    <string name="mythm_desc_31">
+        This ring allows the Priestesses of Hestia to spend only two Power Points when using their Divine Vitality power (instead of the usual
+        3).
+    </string>
+    <string name="mythm_desc_32">
+        This enchanted ring grants its wearer a +4 bonus to his Defense Class against all Missile Attacks. It has no effect against Melee attacks
+        or special distance attacks.
+    </string>
+    <string name="mythm_desc_33">
+        This amulet will automatically detect the presence of poison in any food, drink or other form within a 10\' radius. The wearer of the amulet
+        will be able to tell precisely where the poison is but not its origin or its specific effects.
+    </string>
+    <string name="mythm_desc_34">
+        This ring gives its wearer a +2 bonus to Mystic Fortitude when resisting magical powers which try to influence his actions or emotions.
+    </string>
+    <string name="mythm_desc_35">
+        Rings of Sorcery appear as ordinary silver rings, set with different gemstones; those stones being Emerald, Topaz, Sapphire, and Ruby.
+        each ring gives a Sorceror a +2 to his psychic gift and Mystic Strength and depending on the gemstone on the ring will give the sorceror
+        an extra +2 bonus to one of his powers.
+    </string>
+    <string name="mythm_desc_36">
+        This enchanted ring when put on makes it impossible for the wearer to lie about anything they are asked.
+    </string>
+    <string name="mythm_desc_37">
+        The mystical virtues of these amulets can only be used by Priests of the appropriate deity. A Priest wearing the Sigil of his deity benefits
+        from a permanent, full-power Divine Blessing. Thus, a Sigil of Athena worn by one of her Priestesses would grant her a +2 bonus to the Defense
+        Class, Danger Evasion, Mystic Fortitude and Personal Charisma.
+    </string>
+    <string name="mythm_desc_38">
+        These magical pendants of primitive craftsmanship have been carved in bone, horn or ivory in the shape of various miniature animals
+    </string>
 </resources>
 
