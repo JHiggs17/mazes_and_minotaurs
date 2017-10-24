@@ -262,7 +262,125 @@
         Class, Danger Evasion, Mystic Fortitude and Personal Charisma.
     </string>
     <string name="mythm_desc_38">
-        These magical pendants of primitive craftsmanship have been carved in bone, horn or ivory in the shape of various miniature animals
+        These magical pendants of primitive craftsmanship have been carved in bone, horn or ivory in the shape of various miniature animals.
+        Each talisman confers to its wearer a different ability reflecting the symbolic virtues associated with the animal.
     </string>
+    <string name="mythm_desc_39">
+        This magical belt allows devotees of Hestia with a Grace of 13+ to add their Grace bonus to their Defense Class and Mystic Fortitude
+    </string>
+    <string name="mythm_desc_40">
+        This belt reduces its wearers starting Encumbrance score to 5 instead of 10.
+    </string>
+    <string name="mythm_desc_41">
+        This magical item looks like an ordinary hunting cap, adorned with a long feather. It gives its wearer an unerring ability to always find
+        the direction of the north, even when lost underground.
+    </string>
+    <string name="mythm_desc_42">
+        This magical cloak allows its wearer to blend with his surroundings, much like creatures with the Camouflage special ability.
+    </string>
+    <string name="mythm_desc_43">
+        When the hood of this cloak is put on its wearer\'s head, he becomes completely unrecognizable even to his closest acquaintances.
+    </string>
+    <string name="mythm_desc_44">
+        This enchanted, beautifully woven cloak of the finest purple adds +2 to it\'s wearer's Personal Charisma; this bonus is doubled for
+        Nobles.
+    </string>
+    <string name="mythm_desc_45">
+        This magical garment seems to be made of the darkest shadow, woven into the form of a cloak, When worn in a dark or shadowy environment,
+        it adds a +4 to the wearer's stealth rolls as well as to the target number of all detection rolls.
+    </string>
+    <string name="mythm_desc_46">
+        This coronet can only be used by Priestesses of Aphrodite with a Grace of 13+, allowing the wearer to add her Grace bonus to her Spiritual
+        Aura.
+    </string>
+    <string name="mythm_desc_47">
+        This coronet can only be used by Priestesses of Hera, revealing their inner beauty in a truly wondrous manner. It allows the wearer to add her Spiritual
+        Aura to her Grace score, up to a score of 21.
+    </string>
+    <string name="mythm_desc_48">
+        This coronet can normally can be used by especially Graceful (Grace 13+) Priestesses of a particular goddess, to whom the coronet is explicitly dedicated.
+        it allows the wearer to add her Grace bonus to her basic Defense Class and to her Mystic Fortitude, no helmet combination.
+    </string>
+    <string name="mythm_desc_49">
+        This plain-looking metal headband gives its wearer perfect night vision, negating any penalty to attack and detection rolls caused by darkness (including
+        underground and magical darkness, such as that created by a Cloak of Shadow
+    </string>
+    <string name="mythm_desc_50">
+        This bright red cloak is cut in the finest (and utterly indestructible) magical wool. It gives a +2 bonus to its wearer\'s EDC against all Melee attacks made
+        by Minotaurs and other true Minotaur-kin, but will infuriate the Minotaurian monster who will turn it's attention to only the wearer
+    </string>
+    <string name="mythm_desc_51">
+        These sandals always come in pairs. They can only be worn by hunters with a Grace of 13+, giving a Hunting bonus equal to their Grace mod.
+    </string>
+    <string name="mythm_desc_52">
+        
+    </string>
+    <string name="mythm_desc_53">
+
+    </string>
+    <string name="mythm_desc_54">
+
+    </string>
+    <string name="mythm_desc_55">
+
+    </string>
+    <string name="mythm_desc_56">
+
+    </string>
+    <string name="mythm_desc_57">
+
+    </string>
+    <string name="mythm_desc_58">
+
+    </string>
+    <string name="mythm_desc_59">
+
+    </string>
+    <string name="mythm_desc_60">
+
+    </string>
+    <string name="mythm_desc_61">
+
+    </string>
+    <string name="mythm_desc_62">
+
+    </string>
+    <string name="mythm_desc_63">
+
+    </string>
+    <string name="mythm_desc_64">
+
+    </string>
+    <string name="mythm_desc_65">
+
+    </string>
+    <string name="mythm_desc_66">
+
+    </string>
+    <string name="mythm_desc_67">
+
+    </string>
+    <string name="mythm_desc_68">
+
+    </string>
+    <string name="mythm_desc_69">
+
+    </string>
+    <string name="mythm_desc_70">
+
+    </string>
+    <string name="mythm_desc_71">
+
+    </string>
+    <string name="mythm_desc_72">
+
+    </string>
+    <string name="mythm_desc_73">
+
+    </string>
+    <string name="mythm_desc_74">
+
+    </string>
+
 </resources>
 
