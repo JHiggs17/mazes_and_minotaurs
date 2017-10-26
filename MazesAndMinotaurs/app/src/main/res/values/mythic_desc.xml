@@ -368,16 +368,21 @@
         the olifant will produce a sound that will make any minotaur within the sound range retreat in fear.
     </string>
     <string name="mythm_desc_66">
-        The enlightened elementalist is a scholarly work
+        The enlightened elementalist is a scholarly work that was compiled in the Age of Magic by the various Elementalist schools in the distant city of Ishtar. The complete collection
+        consists of seven clay tablets and is written with consummate erudition in the classical Hazarian of Ishtar as used by the Wizard-Kings of the Second Age. An elementalist  who is
+        skilled with a certain element will gain 100 Wisdom points for reading the appropriate tablet, 200 points if the tablet is on his primary element. the lost 7th tablet has valuable information
+        on all the elements that will give 300 Wisdom points to any elementalist.
     </string>
     <string name="mythm_desc_67">
-
+        The Heresies of Zenon is considered the most controversial literary works ever produced by Zenon the Philosopher. These aroused hostility from many quarters and disgust from the gods themselves.
+        Magicians who read these writings will gain 200 points but as a consequence will not be able to become a divine agent or lose their status as a divine agent.
     </string>
     <string name="mythm_desc_68">
-
+        Easily the most famed of Midian Mariners, Hanno the Navigator\'s detailed ship-logs gave details of all his many voyages around the Middle Sea and even beyond the Bronze Gates, exploring the farthest
+        coasts of Charybdis. the logs are numbered I to VII. Any Mariner who gains the first four scrolls will gain 100 Experience points per scroll, and 200 points for the remaining scrolls.
     </string>
     <string name="mythm_desc_69">
-
+        The Pronouncements of Telphos contained much of the distilled wisdom of the 
     </string>
     <string name="mythm_desc_70">
 
