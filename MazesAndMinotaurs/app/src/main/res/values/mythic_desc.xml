@@ -313,49 +313,62 @@
         These sandals always come in pairs. They can only be worn by hunters with a Grace of 13+, giving a Hunting bonus equal to their Grace mod.
     </string>
     <string name="mythm_desc_52">
-        
+        These sandals always come in pairs and can only be used by characters with a Grace of 13+, allowing their wearer to add his Grace mod to his
+        Initiative score.
     </string>
     <string name="mythm_desc_53">
-
+        These nondescript, ordinary-looking sandals add +4 to their wearer\'s stealth rolls and to the target number of detection rolls made to spot, hear
+        or even track him. If one sandal is worn, the bonus is only +2.
     </string>
     <string name="mythm_desc_54">
-
+        When worn by a Nymph of any kin, this magical silken scarf belt adds +2 to her Odyllic Charm and Mystic Strength when using her powers of
+        Nature's Seduction.
     </string>
     <string name="mythm_desc_55">
-
+        The magical virtues of this tunic can only be used by Hunters with a Grace of 13+, allowing them to add their Grace mod to their Hunting Score.
     </string>
     <string name="mythm_desc_56">
-
+        This beautiful, wondrously woven tunic adds +1 to the wearer\'s Grace mod. It comes in both male and female version, with a wide choice of absolutely
+        divine colors.
     </string>
     <string name="mythm_desc_57">
-
+        This magical leather tunic is made from the flayed skin of a Minotaur. A Minotaur (or any other true Minotaur kin) will never attempt a Grapple
+        attack against a person wearing such a tunic.
     </string>
     <string name="mythm_desc_58">
-
+        When worn by a Shapeshifter, this magical tunic always reappears on the character\'s body if he so wishes. Thus, a Shapeshifter wearing this tunic could
+        turn into any animal form then revert to his human form, wearing the tunic again, the tunic is also virtually indestructible and can change color.
     </string>
     <string name="mythm_desc_59">
-
+        This leather wristband gives its wearer a +2 bonus to Initiative and Missile scores when using a bow. Wearing one Wristband of Archery on each wrist will not
+        result in a higher bonus.
     </string>
     <string name="mythm_desc_60">
-
+        This magical lamp from the mysterious Land of the Sun can only be used by Elementalists with Fire powers. It allows the magician to summon a flamoid servant.
     </string>
     <string name="mythm_desc_61">
-
+        Legends say these disposable mythic items were crafted by Apollo himself as a "Break up Gift" for a group of charming Naiads with whom had dallied in his playful youth.
+        When a nymph looks in the mirror it acquires a number of charges equal to her Grace mod. Spending one charge will allow the nymph to regain
+        1d6 power points without having to meld with nature
     </string>
     <string name="mythm_desc_62">
-
+        This opalescent, unbreakable, head sized magical sphere can only be used by Elementalists with air powers. it allows the magician to summan an eolian that will
+        obey all his orders.
     </string>
     <string name="mythm_desc_63">
-
+        The sound of this magical harp has a deep inspiring quality which adds +2 to a Lyrist\'s Orphic Voice and Mystic Fortitude when playing magnitude songs
+        this increases the effect of the songs and their range.
     </string>
     <string name="mythm_desc_64">
-
+        The sound of this magical harp has an enchanted, appeasing quality which adds +2 to a Lyrist\'s Orphic Voice and Mystic Strength when used to play any magnitude songs.
+        This affects their effectiveness, and their range.
     </string>
     <string name="mythm_desc_65">
-
+        This item looks like a hunting olifant carve from the horn of a huge bull. Only persons with an above average Might (13+) can blow it properly: if blown by such an individual
+        the olifant will produce a sound that will make any minotaur within the sound range retreat in fear.
     </string>
     <string name="mythm_desc_66">
-
+        The enlightened elementalist is a scholarly work 
     </string>
     <string name="mythm_desc_67">
 
@@ -376,9 +389,6 @@
 
     </string>
     <string name="mythm_desc_73">
-
-    </string>
-    <string name="mythm_desc_74">
 
     </string>
 
