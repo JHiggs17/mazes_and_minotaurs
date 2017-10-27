@@ -382,19 +382,22 @@
         coasts of Charybdis. the logs are numbered I to VII. Any Mariner who gains the first four scrolls will gain 100 Experience points per scroll, and 200 points for the remaining scrolls.
     </string>
     <string name="mythm_desc_69">
-        The Pronouncements of Telphos contained much of the distilled wisdom of the 
+        The Pronouncements of Telphos contained much of the distilled wisdom of the philosopher telphos, reading these scrolls give 100 wisdom points per scroll.
     </string>
     <string name="mythm_desc_70">
-
+        the seven scrolls of proteus  is an incredible set of scrolls that supposedly contain traditions that in part go right back to proteus, the father of the proteusian family
+        of humans including the mineans and the first humans to be able to shapeshift. reading these scrolls will give 100 wisdom points for the first four and 200 for the remaining scrolls.
     </string>
     <string name="mythm_desc_71">
-
+        The tome of many tongues is a wondrous work that is capable of translating a piece of speech from one language into two others.
     </string>
     <string name="mythm_desc_72">
-
+        the seven unmatched scrolls of medical insight collect the complete works of the greatest sacred healer of the age of magic, Hippokratos.
+        any sacred healer who reads the first four will gain 100 Wisdom points and 200 for the remaining scrolls.
     </string>
     <string name="mythm_desc_73">
-
+        The poet hesidos is regarded as the greatest storyteller that the island of seriphos has ever produced. any lyrist from seriphos who reads the first four gain 100 wisdom points, and 200 for
+        the remaining, any other lyrist only gets half of the points.
     </string>
 
 </resources>
