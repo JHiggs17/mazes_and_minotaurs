@@ -10,13 +10,14 @@
     <string name="mythw_5">Javelin of Heartbreak</string>
     <string name="mythw_6">Spear of Grace</string>
     <string name="mythw_7">Spear of the Great Hunter</string>
-    <string name="mythw_8">Sword of Aphrodite</string>
-    <string name="mythw_9">Sword of the Bullslayer</string>
-    <string name="mythw_10">Thurian Sword</string>
-    <string name="mythw_11">Axe of the Urok Kings</string>
-    <string name="mythw_12">Sword of Fire</string>
-    <string name="mythw_13">Spear of Vapor,Shield of Ice</string>
-    <string name="mythw_14">Iolanthe\'s Spear and Shield</string>
+    <string name="mythw_8">Spear of the Monster Slayer</string>
+    <string name="mythw_9">Sword of Aphrodite</string>
+    <string name="mythw_10">Sword of the Bullslayer</string>
+    <string name="mythw_11">Thurian Sword</string>
+    <string name="mythw_12">Axe of the Urok Kings</string>
+    <string name="mythw_13">Sword of Fire</string>
+    <string name="mythw_14">Spear of Vapor,Shield of Ice</string>
+    <string name="mythw_15">Iolanthe\'s Spear and Shield</string>
 
     <!-- Mythic Armor -->
 
@@ -79,4 +80,29 @@
     <string name="mythm_46">Coronet of Empowerment</string>
     <string name="mythm_47">Coronet of Inner Beauty</string>
     <string name="mythm_48">Coronet of Virtuous Grace</string>
+    <string name="mythm_49">Headband of Nocturnal Sight</string>
+    <string name="mythm_50">Red Cloak of Tauromachia</string>
+    <string name="mythm_51">Sandals of Artemis</string>
+    <string name="mythm_52">Sandals of Graceful Agility</string>
+    <string name="mythm_53">Sandals of Stealth</string>
+    <string name="mythm_54">Scarf Belt of Seduction</string>
+    <string name="mythm_55">Tunic of Artemis</string>
+    <string name="mythm_56">Tunic of Grace</string>
+    <string name="mythm_57">Tunic of Minotaur Repulsion</string>
+    <string name="mythm_58">Tunic of Protean Wine</string>
+    <string name="mythm_59">Wristband of Archery</string>
+    <string name="mythm_60">Lamp of the Flamoïds</string>
+    <string name="mythm_61">Mirror of Self Contemplation</string>
+    <string name="mythm_62">Orb of the Eolians</string>
+    <string name="mythm_63">Harp of Heroism</string>
+    <string name="mythm_64">Harp of Peace</string>
+    <string name="mythm_65">Horn of Bovine Fear</string>
+    <string name="mythm_66">The Enlightened Elementalist</string>
+    <string name="mythm_67">The Heresies of Zenon</string>
+    <string name="mythm_68">The Logs of Hanno the Navigator</string>
+    <string name="mythm_69">The Pronouncements of Telphos</string>
+    <string name="mythm_70">The Seven Scrolls of Proteus</string>
+    <string name="mythm_71">The Tome of Many Tongues</string>
+    <string name="mythm_72">The Treatises of Hippokratos</string>
+    <string name="mythm_73">The Unfinished Works of Hesidos</string>
 </resources>

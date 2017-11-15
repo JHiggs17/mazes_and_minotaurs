@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spell Descriptions -->
+    <!-- Priest Spells -->
+    <string name="priest_1_desc">
+        With this power, a Priest may place his deity’s
+        blessing upon an individual (including himself). To
+        Bless someone, the Priest must be able to touch the
+        head, heart or shoulder of the chosen individual.
+    </string>
+    <string name="priest_2_desc">
+        With this power, a Priest may ask his deity to send
+        him a vision related to a specific person, place or
+        situation. Depending on the circumstances, these
+        visions may come from the past, the present or
+        even the future – but visions of the future often take
+        a symbolic form that make them difficult to interpret.
+    </string>
+    <string name="priest_3_desc">
+        With this power, a Priest may call on his deity’s
+        supernatural might to instantly heal an individual’s
+        wounds and injuries, infusing him with divine vitality.
+        The Priest may use this power on any person or
+        creature he can touch, including himself.
+    </string>
+    <string name="priest_4_desc">
+        This power allows a Priest to bestow a spectacular
+        ability to a chosen individual (including himself).
+        This ability varies according to the deity’s sphere of
+        influence, as shown below. The effects of a Divine
+        Gift may be combined with those a Blessing but are
+        much shorter, lasting for a number of battle rounds
+        equal to the Priest’s Spiritual Aura.
+    </string>
+    <string name="priest_5_desc">
+        This power allows the Priest to strike his enemies
+        with a bolt of pure spiritual energy.
+    </string>
+    <string name="priest_6_desc">
+        With this very spectacular power, a Priest may ask
+        for a direct intervention by his deity. This requires
+        the expenditure of 6 Power points, followed by a
+        percentile roll to see if the deity actually answers.
+        The chance of success of this percentile roll is equal
+        to 2% per level of the Priest. If the % roll fails, the
+        deity does not answer and the Power has been
+        spent in vain: the Priest may try again but will have
+        to spend 6 Power points before every new attempt.
+    </string>
+
+    <!-- Nymph Spells -->
+    <string name="nymph_1_desc">
+        This Gift enables a Nymph to entrance a mortal,
+        animal or monster with her preternatural charm. To
+        use this power, the Nymph must be able to see (and
+        be seen by) her intended target, who is allowed a
+        Mystic Fortitude roll to resist. The power has a
+        range equal to the Nymph’s Odylic Charm x 10’.
+    </string>
+    <string name="nymph_2_desc">
+        This Gift allows a Nymph to alter her appearance:
+        her hair and eye color, skin hue, facial features etc.
+        It does not enable her to change her physical form
+        but can make her look (and sound) like someone
+        else, provided this someone is a humanoid female
+        of roughly similar size.
+    </string>
+    <string name="nymph_3_desc">
+        This Gift enables a Nymph to instantly heal an
+        individual’s wounds and injuries by the power of
+        their own preternatural life force. The Nymph may
+        heal any being she can touch, including herself.
+    </string>
+    <string name="nymph_4_desc">
+        With this Gift (and a simple kiss), a Nymph may
+        attune another person with her natural environment.
+        These effects last for a number of hours equal to the
+        Nymph’s Odylic Charm
+    </string>
+    <string name="nymph_5_desc">
+        With this Gift, a Nymph may use her kiss to bestow
+        a curse on a chosen victim. The exact form and
+        effects of the curse depend on the Nymph’s kin.
+    </string>
+    <string name="nymph_6_desc">
+        With this power, a Nymph can summon spectacular
+        manifestations of Nature’s might, control elements
+        and bring inanimate things to life!
+    </string>
+
+    <!-- Lyrist Spells -->
+    <string name="lyrist_1_desc">
+        This song grants a +2 bonus to one of the
+        characters D20 modifiers (Melee Missile or one of
+        the four saving rolls) of the Lyrist's choice.
+    </string>
+    <string name="lyrist_2_desc">
+        This Song can be used to free other characters or
+        creatures from Enslavement by a Sorcerer or
+        creature with Psychic Power.
+    </string>
+    <string name="lyrist_3_desc">
+        This song enables a Lyrist to entrance a mortal,
+        animal or monster with his swelling music.
+    </string>
+    <string name="lyrist_4_desc">
+        Those who benefit from the effects of this song
+        immediately heal 1D6 Hits (without exceeding their
+        usual maximum). It may affect up to (Lyrist’s Orphic
+        Voice bonus) individuals and takes one entire
+        minute (10 battle rounds) to execute.
+    </string>
+    <string name="lyrist_5_desc">
+        This song is imbued with the power of rage and
+        anger. Like the Song of Soothing, it takes effect and
+        must be powered as soon as the Lyrist begins to
+        play (see Song of Soothing above). It may affect up
+        to (Lyrist’s Orphic Voice bonus) targets and has a
+        range of (Orphic Voice x 10’), like all other Songs.
+    </string>
+    <string name="lyrist_6_desc">
+        Inspired by the prophetic gifts of Orpheus, the first
+        Lyrist, this Song allows a Lyrist to perceive and
+        reveal the hidden patterns of Fate.
+    </string>
+
+    <!-- Sorceror Spells -->
+    <string name="sorceror_1_desc">
+        This power enables a Sorcerer to disorient and
+        befuddle the mind of another person, animal or
+        monster. It has a range of Psychic Gift x 10’ and
+        may be resisted with a Mystic Fortitude saving roll.
+    </string>
+    <string name="sorceror_2_desc">
+        With this power, a Sorcerer affects the sensory
+        perception of an individual to make him believe he
+        sees or hears things that are not there… To use this
+        power, the Sorcerer must be able to see the
+        individual he wishes to affect and must be within
+        (Psychic Gift x 10’) of his chosen target.
+    </string>
+    <string name="sorceror_3_desc">
+        This power gives a Sorcerer the power to conceal
+        his presence to the minds of others, even if he is
+        standing in plain sight.
+    </string>
+    <string name="sorceror_4_desc">
+        This power allows a Sorcerer to dominate the will of
+        another individual. It requires direct eye contact and
+        thus can only be used against a single target. In
+        addition, its range is limited to 5 times the Sorcerer’s
+        Psychic Gift in feet (i.e. half of the usual range for
+        ranged powers). The victim is allowed a Mystic
+        Fortitude roll to fight off the Sorcerer’s domination. If
+        the target fails to resist, he will be forced to obey the
+        Sorcerer’s commands for a number of rounds equal
+        to the Sorcerer’s Psychic Gift.
+    </string>
+    <string name="sorceror_5_desc">
+        With this power, a Sorcerer may strike his foes with
+        an invisible bolt of pure sorcerous energy.
+    </string>
+    <string name="sorceror_6_desc">
+        This spell is a permanent form of Compelling. It can
+        only be used on a victim under a Compelling spell
+        cast by the same Sorcerer. Thus, each attempt at
+        Enslavement will actually cost 10 Power points: 4
+        for the Compelling and 6 for the Enslavement itself.
+    </string>
+
+    <!-- Elementalist Fire Spells -->
+    <string name="fire_1_desc">
+        With this power, an Elementalist summons forth a
+        bolt of pure fire to hurl at his enemies. This fiery
+        attack requires no attack roll but may be dodged
+        with a Danger Evasion saving roll.
+    </string>
+    <string name="fire_2_desc">
+        This power allows the Elementalist to conjure a
+        man-sized ball of fiery flame that he can move by
+        mental command.
+    </string>
+    <string name="fire_3_desc">
+        With this power, an Elementalist causes an eruption
+        of volcanic fire that engulfs his foes in burning
+        sorrow for a number of battle rounds equal to the
+        Elementalist’s Mastery bonus.
+    </string>
+
+    <!-- Elementalist Water Spells -->
+    <string name="water_1_desc">
+        This power enables an Elementalist to cause water
+        to spout mightily from his hand. He may direct this
+        torrent automatically towards any target within a
+        range of (Mastery x 10’). A character or creature hit
+        by the torrent must pass a Danger Evasion roll or be
+        thrown back 2D6 feet and knocked down. Large
+        creatures are only thrown back 1D6 feet and
+        Gigantic ones are unaffected.
+    </string>
+    <string name="water_2_desc">
+        With this power, an Elementalist can flood an area
+        with vigorously churning water, causing all within to
+        be hindered. It has a range of (Mastery x 50’) and a
+        radius of (Mastery x 10’).
+    </string>
+    <string name="water_3_desc">
+        This power can only be used in the presence of a
+        large body of water (at least 20 yards across). It
+        allows the Elementalist to summon a giant tentaclelike
+        appendage of water ending in a huge fist.
+    </string>
+
+    <!-- Elementalist Air Spells -->
+    <string name="air_1_desc">
+        This power enables an Elementalist to cause the
+        wind to whip around the target, increasing his EDC
+        vs Missile attacks. This power has a range of
+        (Elementalist’s Mastery x 10’) and may be used on
+        a group, up to a number of individuals equal to the
+        Elementalist’s Mastery bonus, as long as all the
+        intended targets are within range.
+    </string>
+    <string name="air_2_desc">
+        The target of this power is ravaged by a whirlwind
+        which lasts for a number of rounds equal to the
+        magician’s Mastery bonus.
+    </string>
+    <string name="air_3_desc">
+        With this power, an Elementalist can summon a
+        furious gigantic whirlwind that scatters his foes like
+        leaves in the wind. The gale can be created
+        anywhere within sight of the magician and has a
+        radius equal to (Mastery x 10’).
+    </string>
+
+    <!-- Elementalist Earth Spells -->
+    <string name="earth_1_desc">
+        This power enables an Elementalist to cause stone
+        hands to erupt from the ground and seize an
+        enemy’s legs. It has a range of (Mastery x 10’).
+        Gigantic creatures cannot be affected by this power.
+        The designated target may make a Danger Evasion
+        roll to escape the grasp of the Hands of Stone.
+        Once he has been grappled, however, he may only
+        try to break free with a feat of strength.
+    </string>
+    <string name="earth_2_desc">
+        This power works on any living being the magician
+        can touch (including himself); it infuses the recipient
+        with the essence of bronze, greatly increasing his
+        strength and resistance to damage.
+    </string>
+    <string name="earth_3_desc">
+        This powerful spell allows an Elementalist to
+        animate a Large stone statue, bringing it to life. In
+        order to use this power, the Elementalist must be
+        within (Mastery x 10’) of the statue.
+    </string>
+</resources>

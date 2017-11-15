@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spell Names -->
+    <!-- Priest Spells -->
+    <string name="priest_1">Divine Blessing</string>
+    <string name="priest_2">Divine Vision</string>
+    <string name="priest_3">Divine Vitality</string>
+    <string name="priest_4">Divine Gift</string>
+    <string name="priest_5">Divine Wrath</string>
+    <string name="priest_6">Divine Intervention</string>
+
+    <!-- Lyrist Spells -->
+    <string name="lyrist_1">Song of Inspiration</string>
+    <string name="lyrist_2">Song of Freedom</string>
+    <string name="lyrist_3">Song of Soothing</string>
+    <string name="lyrist_4">Song of Comfort</string>
+    <string name="lyrist_5">Song of Wrath</string>
+    <string name="lyrist_6">Song of Prophecy</string>
+
+    <!-- Nymph Spells -->
+    <string name="nymph_1">Natures Seduction</string>
+    <string name="nymph_2">Natures Guises</string>
+    <string name="nymph_3">Natures Comfort</string>
+    <string name="nymph_4">Natures Favor</string>
+    <string name="nymph_5">Natures Curse</string>
+    <string name="nymph_6">Natures Command</string>
+
+    <!-- Sorceror Spells -->
+    <string name="sorceror_1">Confusion</string>
+    <string name="sorceror_2">Illusions</string>
+    <string name="sorceror_3">Cloak</string>
+    <string name="sorceror_4">Compelling</string>
+    <string name="sorceror_5">Psychic Attack</string>
+    <string name="sorceror_6">Enslavement</string>
+
+    <!-- Elementalist Fire Spells -->
+    <string name="fire_1">Dart of Fire</string>
+    <string name="fire_2">Blazing Sphere</string>
+    <string name="fire_3">Volcanic Destruction</string>
+
+    <!-- Elementalist Water Spells -->
+    <string name="water_1">Torrent of Water</string>
+    <string name="water_2">Swirling Flood</string>
+    <string name="water_3">Fist of the Sea</string>
+
+    <!-- Elementalist Air Spells -->
+    <string name="air_1">Swirling Winds</string>
+    <string name="air_2">Talons of the Wind</string>
+    <string name="air_3">Gale Fury</string>
+
+    <!-- Elementalist Earth Spells -->
+    <string name="earth_1">Hands of Stone</string>
+    <string name="earth_2">Skin of Bronze</string>
+    <string name="earth_3">Animate Statue</string>
+
+    <!-- Realms -->
+    <string name="priest_realm">Divine Prodigies</string>
+    <string name="elementalist_realm">Elemental Magic</string>
+    <string name="nymph_realm">Natures Gifts</string>
+    <string name="lyrist_realm">Poetic Magic</string>
+    <string name="sorceror_realm">Sorcery</string>
+</resources>
