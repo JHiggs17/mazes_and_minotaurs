@@ -120,7 +120,7 @@ public class CharacterCreationFragment extends Fragment implements DetailDialogF
         mMagicianGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
-                switch (checkedId) {
+                switch (checkedId){
                     case R.id.elementalist_radio:
                         mClassInformation = getResources().getString(R.string.elementalist_class);
                         mClass = "Elementalist";
@@ -192,8 +192,10 @@ public class CharacterCreationFragment extends Fragment implements DetailDialogF
         classType.putSerializable("classInstance", instance);
         addedType.setArguments(classType);
 
-        getFragmentManager().beginTransaction().replace(R.id.content_frame, addedType)
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.content_frame, addedType)
+                .addToBackStack(null)
                 .commit();
     }
 }
-

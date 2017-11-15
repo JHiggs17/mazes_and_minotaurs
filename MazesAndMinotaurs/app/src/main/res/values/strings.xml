@@ -8,6 +8,11 @@
     <string name="create_character">Create New Character</string>
     <string name="play_character">Play Existing Character</string>
     <string name="delete_character">Delete A Character</string>
+    <string name="error_delete_character">Must have one character at all times!</string>
+    <string name="select_character">Select Active Character</string>
+    <string name="save_portfolio">Save Portfolio</string>
+    <string name="save_equipment">Save Equipment Database</string>
+    <string name="save_equipment_con">Save Equip</string>
     <string name="resources">Web Resources</string>
     <string name="mm_website"><![CDATA[M&M Website]]></string>
     <string name="player_companion"><![CDATA[M&M Companion pdf]]></string>
@@ -57,6 +62,8 @@
     <string name="class_word">Class: </string>
     <string name="weapon_of_choice">Weapon of Choice: </string>
     <string name="starting_weapon">Starting Weapon: </string>
+    <string name="physical_heritage">Physical Heritage: </string>
+    <string name="other_heritage">Other Heritage: </string>
 
 
     <!-- Attribute Edit Dialog -->
@@ -64,4 +71,23 @@
     <string name="old_attribute_value" formatted="false">%s Old Value\n%2d</string>
     <string name="new_attribute_value">New Value</string>
     <string name="attribute_edit_hint">Enter a number</string>
+
+    <!-- Character Save/Load Fragment -->
+    <string name="name_view">Name: %s</string>
+    <string name="class_view">Class: %s</string>
+    <string name="level_view">Level: %s</string>
+    <string name="add_equipment">Add Equipment</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_message">Are you sure you want to remove this item?</string>
+    <string name="lyrist_talent">Orphic Voice</string>
+    <string name="elementalist_talent">Elemental Mastery</string>
+    <string name="nymph_talent">Odylic Charm</string>
+    <string name="priest_talent">Spiritual Aura</string>
+    <string name="sorceror_talent">Psychic Gift</string>
+    <string name="reset_equipment_con">Reset Equip</string>
+    <string name="reset_equipment">Reset Equipment Database</string>
+    <string name="caution_alert">Are you sure?</string>
+    <string name="reset_equip_msg">This will reset the EquipmentDB to default values and delete the saved file!</string>
+    <string name="inventory">Inventory</string>
+    <string name="inventory_btn">Open Inventory</string>
 </resources>

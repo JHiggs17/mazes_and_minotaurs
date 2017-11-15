@@ -10,27 +10,43 @@ public class Weapon extends Equipment {
     private int mDamageDie;
     private int mNumberOfDice;
     private int mDamageBonus;
-    private int mWeaponType; //uses string values melee and missile
-    private int mRange = 0;
+    private boolean mIsMelee; //uses string values melee and missile
+    private int mWeaponSize; //uses string values from game_references.xml
+    private int mRange;
 
-    public Weapon(int resId, int encumberance, int quantity, double costInSp,
+    /**public Weapon(int resId, int encumberance, int quantity, double costInSp,
                   String longDescription, int damageDie, int numberOfDice, int damageBonus,
-                  int weaponType) {
+                  int weaponType, int weaponSize) {
         super(resId, encumberance, quantity, costInSp, longDescription);
         mDamageDie = damageDie;
         mNumberOfDice = numberOfDice;
         mDamageBonus = damageBonus;
         mWeaponType = weaponType;
-    }
+        mWeaponSize = weaponSize;
+    }*/
 
-    public Weapon(int resId, int encumberance, int quantity, double costInSp,
+    /**
+     *   weapon constructor
+     * @param resId
+     * @param encumberance
+     * @param quantity
+     * @param costInSp
+     * @param longDescription
+     * @param damageDie
+     * @param numberOfDice
+     * @param damageBonus
+     * @param isMelee
+     * @param weaponSize
+     * @param range
+     */
+    public Weapon(String resId, int encumberance, int quantity, double costInSp,
                   String longDescription, int damageDie, int numberOfDice, int damageBonus,
-                  int weaponType, int range) {
+                  boolean isMelee, int weaponSize, int range) {
         super(resId, encumberance, quantity, costInSp, longDescription);
         mDamageDie = damageDie;
         mNumberOfDice = numberOfDice;
         mDamageBonus = damageBonus;
-        mWeaponType = weaponType;
+        mIsMelee = isMelee;
         mRange = range;
     }
 
@@ -59,11 +75,15 @@ public class Weapon extends Equipment {
     }
 
     public int getWeaponType() {
-        return mWeaponType;
+        return (mIsMelee) ? R.string.melee : R.string.missile;
     }
 
-    public void setWeaponType(int weaponType) {
-        mWeaponType = weaponType;
+    public boolean isMelee() {
+        return mIsMelee;
+    }
+
+    public void setMelee(boolean melee) {
+        mIsMelee = melee;
     }
 
     public int getRange() {
@@ -72,6 +92,14 @@ public class Weapon extends Equipment {
 
     public void setRange(int range) {
         mRange = range;
+    }
+
+    public int getWeaponSize() {
+        return mWeaponSize;
+    }
+
+    public void setWeaponSize(int weaponSize) {
+        mWeaponSize = weaponSize;
     }
 
     @Override

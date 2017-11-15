@@ -9,6 +9,7 @@ import com.example.cis.mazeminotaurs.character.Gender;
 import com.example.cis.mazeminotaurs.character.PlayerCharacter;
 import com.example.cis.mazeminotaurs.character.stats.Score;
 import com.example.cis.mazeminotaurs.rollDice.rollDice;
+import com.example.cis.mazeminotaurs.util.CommonStrings;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,6 +22,10 @@ import java.util.HashMap;
 public class Noble extends Warrior implements Level {
     private ArrayList<HashMap<Score, Integer>> mScoreLevelChoice = new ArrayList<>();
 
+    private Score mPhysicalHeritage = Score.MIGHT;
+    private Score mOtherHeritage = Score.WITS;
+    private boolean mHasHeritage = false;
+
     public Noble() {
         this(null,null,null,null);
     }
@@ -28,30 +33,17 @@ public class Noble extends Warrior implements Level {
     public Noble(PlayerCharacter playerCharacter, Weapon weaponOfChoice, Score martialHeritage, Score mentalHeritage) {
         setPossibleStartWeapons(new Weapon[]{});
         setPossibleWeaponsOfChoice(new Weapon[]{
-                EquipmentDB.getInstance().getWeapon(R.string.bow),
-                EquipmentDB.getInstance().getWeapon(R.string.javelin),
-                EquipmentDB.getInstance().getWeapon(R.string.spear),
-                EquipmentDB.getInstance().getWeapon(R.string.sword),
+                EquipmentDB.getInstance().getWeapon(CommonStrings.BOW.getValue()),
+                EquipmentDB.getInstance().getWeapon(CommonStrings.JAVELIN.getValue()),
+                EquipmentDB.getInstance().getWeapon(CommonStrings.SPEAR.getValue()),
+                EquipmentDB.getInstance().getWeapon(CommonStrings.SWORD.getValue()),
         });
 
-        Score martialScore;
-        if (martialHeritage != null && (martialHeritage.equals(Score.MIGHT) || martialHeritage.equals(Score.SKILL))) {
-            martialScore = martialHeritage;
-        } else {
-            martialScore = Score.MIGHT;
-        }
-        // Noble - Heroic Heritage
-        Score mentalScore;
-        if (mentalHeritage != null &&
-                (mentalHeritage.equals(Score.WITS) ||
-                        mentalHeritage.equals(Score.WILL) ||
-                        mentalHeritage.equals(Score.GRACE))) {
-            mentalScore = mentalHeritage;
-        } else {
-            mentalScore = Score.WITS;
-        }
+        // Noble-Specific things
+        mPhysicalHeritage = martialHeritage;
+        mOtherHeritage = mentalHeritage;
 
-        Score[] primAttrs = {martialScore, Score.LUCK};
+        Score[] primAttrs = {mPhysicalHeritage, Score.LUCK};
         ArrayList<Score> primAttributes = new ArrayList<>();
         Collections.addAll(primAttributes, primAttrs);
 
@@ -63,11 +55,11 @@ public class Noble extends Warrior implements Level {
 
         int rolledGold = rollDice.roll(6, 3) * 100;
 
-        startGear.add(equipmentDB.getWeapon(R.string.sword));
-        startGear.add(equipmentDB.getWeapon(R.string.dagger));
-        startGear.add(equipmentDB.getArmor(R.string.shield));
-        startGear.add(equipmentDB.getArmor(R.string.helmet));
-        startGear.add(equipmentDB.getArmor(R.string.breastplate));
+        startGear.add(equipmentDB.getWeapon(CommonStrings.SWORD.getValue()));
+        startGear.add(equipmentDB.getWeapon(CommonStrings.DAGGER.getValue()));
+        startGear.add(equipmentDB.getArmor(CommonStrings.SHIELD.getValue()));
+        startGear.add(equipmentDB.getArmor(CommonStrings.HELMET.getValue()));
+        startGear.add(equipmentDB.getArmor(CommonStrings.BREASTPLATE.getValue()));
 
         setBasicHits(12);
         setCharacter(playerCharacter);
@@ -77,14 +69,8 @@ public class Noble extends Warrior implements Level {
         setStartMoney(rolledGold);
         setStartGear(startGear);
 
-        // TODO find a way to get around this hack-y method.
-        /* Explanation
-            If the Noble is chosen for the new character it will crash due to a lack of
-            Character. However, we still need access to the code of the constructor.
-         */
         if (getCharacter() != null) {
-            getCharacter().getScore(martialScore).setScore(getCharacter().getScore(martialScore).getScore() + 2);
-            getCharacter().getScore(mentalScore).setScore(getCharacter().getScore(mentalScore).getScore() + 2);
+            doHeritage();
         }
     }
 
@@ -162,8 +148,34 @@ public class Noble extends Warrior implements Level {
         }
     }
 
-    public void doHeritage(Score physical, Score mental) {
+    private void doHeritage() {
+        doHeritage(mPhysicalHeritage, mOtherHeritage);
+    }
 
+    public void doHeritage(Score physical, Score other) {
+        if (!hasHeritage()) {
+            Score realPhysical;
+            if (physical != null &&
+                    (physical.equals(Score.MIGHT) || physical.equals(Score.SKILL))) {
+                realPhysical = physical;
+            } else {
+                realPhysical = Score.MIGHT;
+            }
+            AttributeScore pScore = getCharacter().getScore(realPhysical);
+            pScore.setScore(pScore.getScore() + 2);
+            setPhysicalHeritage(physical);
+
+            Score realOther;
+            if (other != null &&
+                    (other.equals(Score.WITS) || other.equals(Score.WILL) || other.equals(Score.GRACE))) {
+                realOther = other;
+            } else {
+                realOther = Score.WITS;
+            }
+            AttributeScore oScore = getCharacter().getScore(realOther);
+            oScore.setScore(oScore.getScore() + 2);
+            setOtherHeritage(other);
+        }
     }
 
     public int getBattleFortuneBonus() {
@@ -176,5 +188,29 @@ public class Noble extends Warrior implements Level {
 
     public void setScoreLevelChoice(ArrayList<HashMap<Score, Integer>> scoreLevelChoice) {
         this.mScoreLevelChoice = scoreLevelChoice;
+    }
+
+    public Score getPhysicalHeritage() {
+        return mPhysicalHeritage;
+    }
+
+    public void setPhysicalHeritage(Score physicalHeritage) {
+        mPhysicalHeritage = physicalHeritage;
+    }
+
+    public Score getOtherHeritage() {
+        return mOtherHeritage;
+    }
+
+    public void setOtherHeritage(Score otherHeritage) {
+        mOtherHeritage = otherHeritage;
+    }
+
+    public boolean hasHeritage() {
+        return mHasHeritage;
+    }
+
+    public void setHasHeritage(boolean hasHeritage) {
+        mHasHeritage = hasHeritage;
     }
 }

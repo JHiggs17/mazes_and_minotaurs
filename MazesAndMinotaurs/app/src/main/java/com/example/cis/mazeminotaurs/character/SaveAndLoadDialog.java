@@ -14,6 +14,7 @@ import android.widget.Button;
 import com.example.cis.mazeminotaurs.CharacterSheetFragment;
 import com.example.cis.mazeminotaurs.Portfolio;
 import com.example.cis.mazeminotaurs.R;
+import com.example.cis.mazeminotaurs.serialization.SaveAndLoadPerformer;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -24,6 +25,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
+ * @deprecated
  * Created by jusmith on 4/26/17.
  */
 

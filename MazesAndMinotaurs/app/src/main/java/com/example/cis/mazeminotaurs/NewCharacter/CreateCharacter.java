@@ -92,7 +92,7 @@ public class CreateCharacter extends Fragment {
         mWitsButton = (Button) rootView.findViewById(R.id.wits_score_button);
         mWitsButton.setText(Integer.toString(mBaseClass.getCharacter().getScore(Score.WITS).getScore()));
         mLuckButton = (Button) rootView.findViewById(R.id.luck_score_button);
-        mWitsButton.setText(Integer.toString(mBaseClass.getCharacter().getScore(Score.WITS).getScore()));
+        mLuckButton.setText(Integer.toString(mBaseClass.getCharacter().getScore(Score.LUCK).getScore()));
         mWillButton = (Button) rootView.findViewById(R.id.will_score_button);
         mWillButton.setText(Integer.toString(mBaseClass.getCharacter().getScore(Score.WILL).getScore()));
         mGraceButton = (Button) rootView.findViewById(R.id.grace_score_button);
@@ -103,7 +103,7 @@ public class CreateCharacter extends Fragment {
         mMFButton = (Button) rootView.findViewById(R.id.mystic_fortitude_button);
         mPVButton = (Button) rootView.findViewById(R.id.physical_vigor_button);
         mInitButton = (Button) rootView.findViewById(R.id.initiative_modifier_button);
-        mWeaponNameButton = (Button) rootView.findViewById(R.id.equipped_weapon_button);
+        mWeaponNameButton = (Button) rootView.findViewById(R.id.equipped_weapon_spinner);
         mWeaponTypeButton = (Button) rootView.findViewById(R.id.attack_button);
 
         // Confirm button
@@ -116,6 +116,13 @@ public class CreateCharacter extends Fragment {
                 CharacterSheetFragment fragment = new CharacterSheetFragment();
                 Bundle bundle = new Bundle();
                 fragment.setArguments(bundle);
+
+                // Clear the back stack
+                int entryIndex = 0;
+                while (entryIndex < getFragmentManager().getBackStackEntryCount()) {
+                    getFragmentManager().popBackStack();
+                    entryIndex++;
+                }
 
                 getFragmentManager().beginTransaction().replace(R.id.content_frame, fragment)
                         .commit();
@@ -135,7 +142,13 @@ public class CreateCharacter extends Fragment {
         mMFButton.setText(Integer.toString(character.getMysticFortitude()));
         mPVButton.setText(Integer.toString(character.getPhysicalVigor()));
         mInitButton.setText(Integer.toString(character.getInitiative()));
-        mWeaponNameButton.setText(character.getWeapons().get(0).getResId());
-        mWeaponTypeButton.setText(character.getWeapons().get(0).getWeaponType());
+        if (character.getCurrentWeapon() != null) {
+            mWeaponNameButton.setText(character.getCurrentWeapon().getResId());
+            mWeaponTypeButton.setText(character.getCurrentWeapon().getWeaponType());
+        }
+        else {
+            mWeaponNameButton.setText("-");
+            mWeaponTypeButton.setText("-");
+        }
     }
 }
